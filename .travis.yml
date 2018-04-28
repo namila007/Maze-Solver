@@ -8,14 +8,13 @@ script: "mvn install"
 
 before_deploy:
   - "mvn -DskipTests package"
-  - export FOO=$(ls target/foo-version-*.jar)
   
 deploy:
   # GitHub - Add zip to release
   - provider: releases
     api_key:
       secure: a838a52b8f415b3a7df80f3d52cfe48ab7300b5c
-    file: "${FOO}"
+    file: /home/travis/build/namila007/Maze-Solver/target/Maze-Solver-1.0-SNAPSHOT.jar
     skip_cleanup: true
     on:
       tags:
