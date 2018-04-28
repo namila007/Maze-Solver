@@ -3,7 +3,8 @@ language: java
 jdk:
 - openjdk7
 
-script: mvn install
+script: 
+  - mvn install
 
 before_deploy:
   - "mvn -DskipTests package"
