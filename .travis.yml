@@ -9,12 +9,6 @@ script: "mvn install"
 before_deploy:
   - "mvn -DskipTests package"
   - export FOO=$(ls target/foo-version-*.jar)
-
-deploy:
-  provider: releases
-  api_key: a838a52b8f415b3a7df80f3d52cfe48ab7300b5c
-  secure: yep
-  file: "${FOO}"
   
 deploy:
   # GitHub - Add zip to release
