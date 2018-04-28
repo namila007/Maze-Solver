@@ -13,5 +13,5 @@ before_deploy:
 deploy:
   provider: releases
   api_key: a838a52b8f415b3a7df80f3d52cfe48ab7300b5c
-    secure: yep
+  secure: yep
   file: "${FOO}"
