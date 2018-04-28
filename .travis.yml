@@ -3,8 +3,9 @@ language: java
 jdk:
 - openjdk7
 
-script: 
-  - mvn install
+sudo: false # faster builds
+
+script: "mvn install"
 
 before_deploy:
   - "mvn -DskipTests package"
