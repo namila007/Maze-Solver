@@ -15,3 +15,16 @@ deploy:
   api_key: a838a52b8f415b3a7df80f3d52cfe48ab7300b5c
   secure: yep
   file: "${FOO}"
+  
+deploy:
+  # GitHub - Add zip to release
+  - provider: releases
+    api_key:
+      secure: a838a52b8f415b3a7df80f3d52cfe48ab7300b5c
+    file: "${FOO}"
+    skip_cleanup: true
+    on:
+      tags:
+    all_branches: true
+    on_success: always
+    on_failure: never  
