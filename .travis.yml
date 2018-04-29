@@ -17,7 +17,7 @@ deploy:
   # GitHub - Add zip to release
   - provider: releases
     api_key:
-      secure: b8af8897618b621db211b705f428a5f8dafdfb3d
+      secure: 64928547f6ec67dfec1bfa07ddb14f0771c7cd66
     file: /home/travis/build/namila007/Maze-Solver/target/Maze-Solver-1.0-SNAPSHOT.jar
     skip_cleanup: true
     on:
