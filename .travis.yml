@@ -1,5 +1,9 @@
 language: java
 
+cache:
+    directories:
+     - /home/travis/build/namila007/Maze-Solver/target/
+
 jdk: oraclejdk8
 
 sudo: false # faster builds
@@ -13,7 +17,7 @@ deploy:
   # GitHub - Add zip to release
   - provider: releases
     api_key:
-      secure: 031d3fef153981d05913d0f3fba5920f42da95aa
+      secure: 47c27fe08ef8fe9cf0945354e1f8614851036ae4
     file: /home/travis/build/namila007/Maze-Solver/target/Maze-Solver-1.0-SNAPSHOT.jar
     skip_cleanup: true
     on:
