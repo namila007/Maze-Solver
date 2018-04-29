@@ -3,4 +3,9 @@ Maze solver and montecarlo simulation using multi threads
 
 ## How to Run
 1. mvn clean install
-2. 
+
+## Releases
+ Get the latest release [LATEST RELEASE](https://github.com/namila007/Maze-Solver/releases)
+ 
+ ## Travis Build Logs
+ [Logs](https://travis-ci.org/namila007/Maze-Solver/builds)
