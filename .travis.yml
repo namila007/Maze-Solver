@@ -17,7 +17,7 @@ deploy:
   # GitHub - Add zip to release
   - provider: releases
     api_key:
-      secure: 2af6d447d04c3caaf4bccd7d1765e90ec651d6af
+      secure: H5ATi8KKMIsQcqRObrb/erL6MmkF4FuvDvnpWgeFUzXvIGB0VBHtS2t3uPv/X/CkQlD+Z7woLVGSuMd4ZpNcBhq9YlOiFvokSMMCJpbFupaFGQv8Md5e1RlqNVKUc5aqegE3kYn8XCdnPGV5XrVDCpebJvtMKsyqweszb3XqhGsTE2OLVALF80sm4TZup7EqdmqkMvUc+dRCDCxCIAgM3xjlo7YmFwVGyr7ca2Qs6ROWDmecdl6/sgd3NLxkGp81rzE8fyyvR8LsIreE5HK8hSo/VFRxaFaBjZ3QF+TqN5zmGVrpIB650gEw0WluzVCSJzHRRZiAwHxLmHYTqmEas0PWR4wCG+hH4e4iLzEh9dvI9TZNd6s0x2ExIQOk1X4Qox3tl0QAYSopHi/Bwrwc+xTYc6krYh8mjd2TbPffSXMjC5NBjXYs8b9cY2pPf9jmYZIWzPdOuaSGWcdofGFNcUpSfIGtZkw/AJuem9gc9ZrONRZ9x6yEbrY0gnbPi+UDHyNdUNWPaOegdY5cUgl87LRsRdE+qjZeWqHe8OSVbE2x2wfPMjBhQlPpp+OhQNdROpWuIveVKXPNviXtcsgrSHjEznmDZJBq9j1vrAAzAijlMpua1GHNpEpAqL4rk5eXxQa6lQdOTVqmjkcO/QhkWb4qXWi7QLEsp3bLBwDgfzA=
     file: /home/travis/build/namila007/Maze-Solver/target/Maze-Solver-1.0-SNAPSHOT.jar
     skip_cleanup: true
     on:
